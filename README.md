@@ -11,12 +11,12 @@ Comando que permite unir 2 o más GTFS en uno solo, considerando como estructura
 Clonar repositorio de Github:
 
 ```
-git clone https://github.com/Epilef-coder/GTFS.git
+git clone https://github.com/Epilef-coder/mergeGTFS.git
 ```
 Cambiar el directorio de trabajo:
 
 ```
-cd GTFS
+cd mergeGTFS
 ```
 
 ### Dependencias y entorno virtual
