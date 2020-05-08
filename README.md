@@ -72,24 +72,8 @@ La ejecución es mediante consola de comando siguiendo la siguiente estructura:
 python3 mergeGTFS.py \path\to\GTFS
 ```
 
-### Prueba (opcional)
+Puede tardar unos minutos dependiendo de cuantos GTFS y que tan grandes sean estos.
 
-Ejecute test de prueba:
-
-```
-python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_Prueba.zip
-```
-
-Si todo sale bien debería tener un retorno como el siguiente:
-
-```
-python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_Prueba.zip
-
-Generando diccionarios
-Cambiando frecuencia a itinerario
-Generando archivos
-Fin, puede encontrar su nuevo GTFS en \path\to\GTFS_INPUT\OUTPUT_SCHEDULED
-```
 ### Ayuda (opcional)
 
 ```
