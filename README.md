@@ -14,7 +14,7 @@ Los siguientes archivos poseen verificación de coincidencias de id al momento d
 - stops.txt
 - trips.txt
 
-Se omiten aquellos id repetidos conservando el que fue definido en primera instancia (asegurese que los id de los archivos GTFS no sean iguales en caso de representar paraderos, servicios o viajes diferentes).En caso de incluir archivos fuera de la lista anterior se conservarán en la unión, pero no se verifica la coincidencia de id. 
+Se omiten aquellos id repetidos conservando el que fue definido en primera instancia (asegurese que los id de los archivos GTFS no sean iguales en caso de representar paraderos, servicios o viajes diferentes). En caso de incluir archivos fuera de la lista anterior se producirá la unión de todas las filas. 
 
 ## Requisitos
 
