@@ -19,7 +19,7 @@ Cambiar el directorio de trabajo:
 cd mergeGTFS
 ```
 
-### Dependencias y entorno virtual
+### Dependencias y entorno virtual (puede omitir este paso si cumple los requisitos)
 
 Se recomienda la utilización de un entorno virtual, si no tiene instalado ```virtualenv``` puede instalarlo con los siguientes comandos:
 
