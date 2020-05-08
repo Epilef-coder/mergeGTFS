@@ -1,5 +1,5 @@
 # mergeGTFS
-Comando que permite unir 2 o más GTFS, considerando como estructura base el primer GTFS proporcionado en el directorio (hint: renombre el archivo base como el primero en la lista por orden alfabético).
+Comando que permite unir 2 o más GTFS, considerando como estructura base el primer GTFS proporcionado en el directorio (Hint: renombre el archivo base como el primero en la lista por orden alfabético).
 
 Los siguientes archivos poseen verificación de coincidencias de id al momento de la unión: 
 
@@ -14,11 +14,7 @@ Los siguientes archivos poseen verificación de coincidencias de id al momento d
 - stops.txt
 - trips.txt
 
-Se omiten aquellos id repetidos conservando el que fue definido en primera instancia (asegurese que los id de los archivos GTFS no sean iguales en caso de representar paraderos, servicios o viajes diferentes).
-
-En caso de incluir archivos fuera de la lista anterior se conservarán en la unión, pero no se verifica la coincidencia de id. 
-
-No hay necesidad de que estén definidos todos los archivos de un GTFS, pero se sugiere que cada uno de ellos sea validado previamente: http://gtfsvalidator.omnimodal.io/upload
+Se omiten aquellos id repetidos conservando el que fue definido en primera instancia (asegurese que los id de los archivos GTFS no sean iguales en caso de representar paraderos, servicios o viajes diferentes).En caso de incluir archivos fuera de la lista anterior se conservarán en la unión, pero no se verifica la coincidencia de id. 
 
 ## Requisitos
 
@@ -77,7 +73,7 @@ python3 mergeGTFS.py \path\to\GTFS
 ```
 ## Validación
 
-Si desea validar el GTFS de entrada o salida puede realizarlos a través de: 
+Si desea validar los GTFS de entrada y/o salida puede realizarlos a través de: 
 
 - GTFS Meta-Validator (servicio online): http://gtfsvalidator.omnimodal.io/upload
 - FeedValidator (en su ordenador): https://github.com/google/transitfeed/wiki/FeedValidator
