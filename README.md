@@ -71,9 +71,45 @@ La ejecución es mediante consola de comando siguiendo la siguiente estructura:
 ```
 python3 mergeGTFS.py \path\to\GTFS
 ```
-## Validación
 
-Si desea validar los GTFS de entrada y/o salida puede realizarlos a través de: 
+### Prueba (opcional)
+
+Ejecute test de prueba:
+
+```
+python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_Prueba.zip
+```
+
+Si todo sale bien debería tener un retorno como el siguiente:
+
+```
+python3 GTFS_frequenciesToScheduled.py \path\to\GTFS_INPUT\GTFS_Prueba.zip
+
+Generando diccionarios
+Cambiando frecuencia a itinerario
+Generando archivos
+Fin, puede encontrar su nuevo GTFS en \path\to\GTFS_INPUT\OUTPUT_SCHEDULED
+```
+### Ayuda (opcional)
+
+```
+python3 GTFS_frequenciesToScheduled.py -h
+
+usage: GTFS_frequenciesToScheduled.py [-h] GTFS_INPUT
+
+Cambiar GTFS definido como frecuencia a uno definido por itinerario
+
+positional arguments:
+  GTFS_INPUT  Ruta de GTFS INPUT definido como frecuencia. e.g. \path
+              o\GTFS_INPUT.zip
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
+
+## Validación (opcional)
+
+Si desea validar el o los GTFS de entrada y/o salida puede realizarlos a través de: 
 
 - GTFS Meta-Validator (servicio online): http://gtfsvalidator.omnimodal.io/upload
 - FeedValidator (en su ordenador): https://github.com/google/transitfeed/wiki/FeedValidator
