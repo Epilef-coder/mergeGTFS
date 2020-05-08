@@ -93,15 +93,15 @@ Fin, puede encontrar su nuevo GTFS en \path\to\GTFS_INPUT\OUTPUT_SCHEDULED
 ### Ayuda (opcional)
 
 ```
-python3 GTFS_frequenciesToScheduled.py -h
+python3 mergeGTFS.py -h
+usage: mergeGTFS.py [-h] GTFS_path
 
-usage: GTFS_frequenciesToScheduled.py [-h] GTFS_INPUT
-
-Cambiar GTFS definido como frecuencia a uno definido por itinerario
+Unir dos o más GTFS (GTFS.zip), manteniendo la compatibilidad con el primer
+GTFS (GTFS base).
 
 positional arguments:
-  GTFS_INPUT  Ruta de GTFS INPUT definido como frecuencia. e.g. \path
-              o\GTFS_INPUT.zip
+  GTFS_path   Ruta donde GTFS están almacenados, el primero de ellos será
+              tomado como referencia. e.g. \path o\GTFS_INPUT
 
 optional arguments:
   -h, --help  show this help message and exit
