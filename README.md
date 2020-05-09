@@ -72,8 +72,11 @@ La ejecución es mediante consola de comando siguiendo la siguiente estructura:
 python3 mergeGTFS.py \path\to\GTFS
 ```
 
-Puede tardar unos minutos dependiendo de cuantos GTFS y que tan grandes sean estos.
+Puede tardar unos minutos dependiendo de cuantos  que tan grandes sean los GTFS.
 
+### Prueba (opcional)
+
+Para ejecutar un test de prueba puede utilizar los GTFS de prueba ubicados en la carpeta test dentro del git clonado.
 ### Ayuda (opcional)
 
 ```
